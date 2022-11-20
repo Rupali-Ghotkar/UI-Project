@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style type="text/css">
+        *{
+            padding: 0px;
+            margin: 0px;
+            
+        }
+        #login_box{
+            background-image: url('https://cdn2.vectorstock.com/i/1000x1000/36/21/white-abstract-background-with-colour-circles-vector-21753621.jpg');
+            padding: 100;px
+            background-size: 100% 100%;
+            
+            }
+        #container{
+            background-color: white;
+            border: 1px solid brown;
+            display: flex;
+            box-shadow:15px 12px 10px brown;
+            
+        }
+        #child_1{
+            flex: 1;
+        }
+        #child_1 img{}
+        #child_2{
+            flex: 1;
+        }
+        #child_2 form{
+            padding: 80px;
+        } 
+        #child_2 input{
+            margin-bottom: 30px;
+            padding: 7px;
+        }
+        #child_2 input[type="username"],
+        #child_2 input[type="password"],
+        {
+            width:300px;
+        }
+        #child_2 button{
+            width: 250px;
+            border: none;
+            padding: 7px 9px;
+            background-color:rgb(2, 252, 2) ;
+        }
+        #child_2 a{
+            padding: 20px 0px;
+        }
+    </style>
+</head>
+<body>
+    <section id="login_box">
+        <div id="container">
+            <div id="child_1">
+                <img src="https://www.solidbackgrounds.com/images/1920x1080/1920x1080-bright-green-solid-color-background.jpg" width="230%" height="370">
+        </div>
+        <div id="child_2">
+            <form>
+                <label>username</label>
+                <input type="username" placeholder="username"><br>
+                <label>Password</label><br>
+                <input type="password" placeholder="password" ><br>
+                <button>LOGIN</button><br><br>
+                <a href="Not registered? Create ab account"></a><br><br>
+            </form>
+
+        </div>
+        </div>
+    </section>
+</body>
+</html>
